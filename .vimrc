@@ -1,10 +1,16 @@
 inoremap <C-j> <Esc>
 inoremap {} {}<LEFT>
+inoremap [] []<LEFT>
 inoremap {<Enter> {}<LEFT><CR><ESC><S-o>
 inoremap () ()<LEFT>
+inoremap (), (),<LEFT><LEFT>
+inoremap (): ():<LEFT><LEFT>
 inoremap (<Enter> ()<LEFT><CR><ESC><S-o>
 inoremap "" ""<ESC>i
+inoremap "", "",<LEFT><LEFT>
+inoremap "": "":<LEFT><LEFT>
 inoremap '' ''<ESC>i
+inoremap '', '',<LEFT><LEFT>
 
 
 set number 
